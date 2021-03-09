@@ -11,7 +11,7 @@ const About = () => {
                 <div className="row">
                     <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-contect-center flex-column">
                     <h1>
-                    Wel-Come to About page !<br/><br/>Make your Heaven with<strong className="brand-name"><br/>Floor & More</strong> 
+                    Reasons to love <strong className="brand-name"><br/>Floor & More</strong> 
                     </h1><br/>
                     <h2 className="my-3"> 
                     we are the team of interior design</h2>

@@ -4,45 +4,87 @@ import React from 'react';
 const Sofa = () => {
     return (
         <>
-<div className="cardd">
-            <div className="cardds">
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="https://images.woodenstreet.de/image/data%2Fwooden-sofa%2Fsolace-wooden-sofa-revised%2Frevised%2Fhoney%2Ffront.jpg" alt="First slide"/>
+<div class="container">
+  <div class="row align-items-start">
+    <div class="col">
+      <div class="card">
+                    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMI1gxv3nPw8VpBsEvyAMlkR6dwl0sbfVTlOdC-GIUSKvDJhI_eGnHuBLXJA&usqp=CAc" alt="..." height="200px"/>
+                    <div class="card-body"> 
+                    <p class="card-text"> RS-15000 </p>
+                   </div>
+                </div>
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://images.woodenstreet.de/image/data%2Fwooden-sofa%2Fcortez-l-shape-sofa%2Frevised%2Fhoney%2Ffront.jpg" alt="Second slide"/>
+    <div class="col">
+      <div class="card">
+                    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFMz9pQP2FN-FOruQBjdPovPfl-ha5YQRjdJKj5g9_qVNn6RPcO_5kNrzz4GI&usqp=CAc" alt="..." height="200px"/>
+                    <div class="card-body"> 
+                    <p class="card-text"> RS-25000 </p>
+                   </div>
+                </div>
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://images.woodenstreet.de/image/cache/data%2Fwooden-sofa%2Fmessy-wooden-sofa-revised%2Findigo%2Fwalnut%2Flook-3-1-1-1100x768.jpg" alt="Third slide"/>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://images-na.ssl-images-amazon.com/images/I/61F1LdAQimL._SL1079_.jpg" alt="Third slide"/>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://homefurn.com/images/thumbs/0025232_reed-sofa-set-light-brown_850.jpeg" alt="Third slide"/>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://i2.wp.com/nimvo.com/wp-content/uploads/2017/09/Brown-living-rooms-15.jpg" alt="Third slide"/>
+    <div class="col">
+      <div class="card">
+                    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHeQkCYp3jtop3Qi7wy5ApwqvMVJUH9TSdKHBSkidY0Az_4zaPs7ecHDL9LQ&usqp=CAc" alt="..." height="200px"/>
+                    <div class="card-body"> 
+                    <p class="card-text"> RS-10500 </p>
+                   </div>
+                </div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+  <div class="row align-items-center">
+    <div class="col">
+      <div class="card">
+                    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJfBUhu-s96LzipzvM5eQH0MtEuoV6doEvbGhRNZoxYbOrfrjGRlhRrVEFsA&usqp=CAc" alt="..." height="200px"/>
+                    <div class="card-body"> 
+                    <p class="card-text">RS-55000 </p>
+                   </div>
+                </div>
+    </div>
+    <div class="col">
+      <div class="card">
+                    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmEnFgfMujR1E126Zyq7lmKkQzymK9Q9plCGYzOaz4sQ3zwqva3mFmiGbRbq8&usqp=CAc" alt="..." height="200px"/>
+                    <div class="card-body"> 
+                    <p class="card-text"> RS-45500 </p>
+                   </div>
+                </div>
+    </div>
+    <div class="col">
+      <div class="card">
+                    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeKYHoKPPwIp3UQpWFMYC0-fi5s1gRA194DgfqeLhmuoveyYCE7ZCvPfeJfg-U8HbiVL8CYPI7&usqp=CAc" alt="..." height="200px"/>
+                    <div class="card-body"> 
+                    <p class="card-text">RS-15000 </p>
+                   </div>
+                </div>
+    </div>
+  </div>
+  <div class="row align-items-end">
+    <div class="col">
+      <div class="card">
+                    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJuO7AVo43yfjbX9M1OnqwZ5LX1CblLPmH63Ho0NwaoVTynuJojFjEi3qS6g&usqp=CAc" alt="..." height="200px"/>
+                    <div class="card-body"> 
+                    <p class="card-text">RS-80500 </p>
+                   </div>
+                </div>
+    </div>
+    <div class="col">
+      <div class="card">
+                    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg_r-hsd1SAxPNqkx3-FhEgaQtCvyDzuXz3gmDwYtxX8HutQlljcYjunAsu40&usqp=CAc" alt="..." height="200px"/>
+                    <div class="card-body"> 
+                    <p class="card-text">RS-32500 </p>
+                   </div>
+                </div>
+    </div>
+    <div class="col">
+      <div class="card">
+                    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP6VpPflQ8K_TspVFCd1H5T5spv-7T1fli7tQe2-PR_gotLWJF-njYQHYDYQ&usqp=CAc" alt="..." height="200px"/>
+                    <div class="card-body"> 
+                    <p class="card-text">RS-23500 </p>
+                   </div>
+                </div>
+    </div>
+  </div>
 </div>
-</div></div>
+
         </>
     );
 };

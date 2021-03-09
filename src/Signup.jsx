@@ -3,7 +3,7 @@ const Signup = () => {
   
     return (
         <>
-        <div className="my-6">
+        <div className="my-5">
         <h3 className="text-center">Signup</h3>
         </div>
         <div className="container contact_div">
@@ -21,7 +21,8 @@ const Signup = () => {
   <div class="form-group col-md-6">
   <label for="inputName">Last name</label>
   <input type="text" class="form-control" placeholder="Last name"/>
-  </div>
+  </div></div>
+  <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputEmail4">Email</label>
       <input type="email" class="form-control" id="inputEmail4" placeholder="Email"/>

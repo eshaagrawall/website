@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom";
 const Login = () => {
 return (
     <>
-    <section className="sectionstyle">
+    
 <div className="my-6">
    
     <h3 className="text-center">Login</h3>
@@ -52,7 +52,7 @@ return (
  </div>
         </div>
     </div>
-    </section>
+   
     </>
     );
 }

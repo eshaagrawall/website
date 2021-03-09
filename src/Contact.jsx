@@ -9,8 +9,7 @@ const Contact = () => {
     return (
     <>
     
-    <section className="sectionstyle">
-    <div className="my-6">
+    <div className="my-5">
     <h3 className="text-center">Contact US</h3>
     </div>
     <div className="container contact_div">
@@ -19,7 +18,7 @@ const Contact = () => {
             <form>
 
                 <div class="mb-3">
-                <label for="exampleFormControlInput" 
+                <label for="exampleFormControlInput1" 
                 class="form-label">
                 FullName
                 </label>
@@ -33,7 +32,7 @@ const Contact = () => {
                 </div>
 
                 <div class="mb-3">
-                <label for="exampleFormControlInput" 
+                <label for="exampleFormControlInput1" 
                 class="form-label">
                 Phone
                 </label>
@@ -85,7 +84,7 @@ const Contact = () => {
         </div>
         </div>
     </div>
-    </section>
+  
     </>
     );
 }

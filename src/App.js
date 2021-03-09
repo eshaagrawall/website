@@ -1,12 +1,11 @@
 import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
-import {Route, Switch} from "react-router-dom";
+import {Redirect, Route, Switch} from "react-router-dom";
+import Navbar from "./Navbar";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
-import Error from "./Error";
-import Navbar from "./Navbar";
 import Service from "./Service";
 import Login from "./Login";
 import Signup from "./Signup"; 
@@ -38,9 +37,9 @@ const App =() => {
     <Route exact path="/Sofa" component={Sofa}/>
     <Route exact path="/Wardrobe" component={Wardrobe}/>
     <Route exact path="/Interior" component={Interior}/>
-    
+    <Redirect to="/"/>
 
-    <Route component={Error} />
+   
    
     </Switch>
     <Footer/>

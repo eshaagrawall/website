@@ -3,19 +3,22 @@ import {NavLink} from "react-router-dom";
 const Navbar = () => {
     return (
         <>
-        
         <div className="container_fluid" nav bg>
         <div className='row'> 
-        <div className="col-11 mx-auto">
+        <div className="col-10 mx-auto">
+        
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
+        
+       
     
         <NavLink  
         className="navbar-brand" to="/">Floor & More</NavLink>
         
         <button className="navbar-toggler" 
-        type="button" data-bs-toggle="collapse" 
-        data-bs-target="#navbarSupportedContent" 
+        type="button" 
+        data-toggle="collapse" 
+        data-target="#navbarSupportedContent" 
         aria-controls="navbarSupportedContent" 
         aria-expanded="false" 
         aria-label="Toggle navigation">
@@ -45,18 +48,17 @@ const Navbar = () => {
         <li className="nav-item">
           <NavLink activeClassName='menu_active' exact className="nav-link" to="/contact">Contact</NavLink>
         </li>
+        
         </ul>
       
-      <form className="d-flex">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      
     </div>
   </div>
-</nav>
+</nav> 
 </div>
         </div>
-        </div>             
+        </div>  
+                  
         </>
     );
 };

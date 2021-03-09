@@ -18,7 +18,7 @@ const Interior = () => {
       <img class="d-block w-100" src="https://media.designcafe.com/wp-content/uploads/2019/12/23120437/best-interiors-in-bangalore.jpg" alt="First slide"/>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/852b2250239889.58e8c1181b132.jpg" alt="Second slide"/>
+      <img class="d-block w-100" src="https://images.livspace-cdn.com/w:768/h:400/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/customWardrobe/looks/minimal-1594984907sSmPs.jpg" alt="Second slide"/>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="https://ansainteriors.com/wp-content/uploads/2020/08/mandir-interior-design.jpg" alt="Third slide"/>
